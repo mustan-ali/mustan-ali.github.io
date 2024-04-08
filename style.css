@@ -10,7 +10,10 @@ body {
     font-weight: normal;
     background: url(./bg.jpg);
     background-size: cover;
-    background-position: center;    
+    background-position: center;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
 }
 
 main {
